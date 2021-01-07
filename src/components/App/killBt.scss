@@ -1,0 +1,402 @@
+//Source: https://www.w3schools.com/cssref/css_default_values.asp
+
+//This class set to default all HTML attributes changed by Bootstrap.
+
+//This class was necessary because bootstrap modify some HTML elements attributes,
+//and because of this, some issues can occur.
+
+.killBt{
+    blockquote {
+        display: block!important;
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+        margin-left: 40px!important;
+        margin-right: 40px!important;
+    }
+    // a:link{
+    //     color: (internal value)!important;
+    //     text-decoration: underline!important;
+    //     cursor: auto!important;
+    // }	
+    // a:visited{
+    //     color: (internal value)!important;
+    //     text-decoration: underline!important;
+    //     cursor: auto!important;
+    // }
+    // a:link:active{
+    //     color: (internal value)!important;
+    // }
+    // a:visited:active{
+    //     color: (internal value)!important;
+    // }
+    address{
+        display: block!important;
+        font-style: italic!important;
+    }
+    area{
+        display: none!important;
+    }
+    article{
+        display: block!important;
+    }
+    aside{
+        display: block!important;
+    }
+    b{
+        font-weight: bold!important;
+    }
+    bdo{
+        unicode-bidi: bidi-override!important;
+    }
+    blockquote{
+        display: block!important;
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+        margin-left: 40px!important;
+        margin-right: 40px!important;
+    }
+    body{
+        display: block!important;
+        margin: 8px!important;
+    }
+    body:focus{
+        outline: none!important;
+    }
+    caption{
+        display: table-caption!important;
+        text-align: center!important;
+    }
+    cite{
+        font-style: italic!important;
+    }
+    code{
+        font-family: monospace!important;
+    }
+    col{
+        display: table-column!important;
+    }
+    colgroup{
+        display: table-column-group!important;
+    }
+    datalist{
+        display: none!important;
+    }
+    dd{
+        display: block!important;
+        margin-left: 40px!important;
+    }
+    del{
+        text-decoration: line-through!important;
+    }
+    details{
+        display: block!important;
+    }
+    dfn{
+        font-style: italic!important;
+    }
+    div{
+        display: block!important;
+    }
+    dl{
+        display: block!important;
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    dt{
+        display: block!important;
+    }
+    em{
+        font-style: italic!important;
+    }
+    embed:focus{
+        outline: none!important;
+    }
+    fieldset{
+        display: block!important;
+        margin-left: 2px!important;
+        margin-right: 2px!important;
+        padding-top: 0.35em!important;
+        padding-bottom: 0.625em!important;
+        padding-left: 0.75em!important;
+        padding-right: 0.75em!important;
+        border: 2px groove (internal value)!important;
+    }
+    figcaption{
+        display: block!important;
+    }
+    figure{
+        display: block!important;
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+        margin-left: 40px!important;
+        margin-right: 40px!important;
+    }
+    footer{
+        display: block!important;
+    }
+    form{
+        display: block!important;
+        margin-top: 0em!important;
+    }
+    // h1{
+    //     display: block!important;
+    //     font-size: 2em!important;
+    //     margin-top: 0.67em!important;
+    //     margin-bottom: 0.67em!important;
+    //     margin-left: 0!important;
+    //     margin-right: 0!important;
+    //     font-weight: bold!important;
+    // }
+    // h2{
+    //     display: block!important;
+    //     font-size: 1.5em!important;
+    //     margin-top: 0.83em!important;
+    //     margin-bottom: 0.83em!important;
+    //     margin-left: 0!important;
+    //     margin-right: 0!important;
+    //     font-weight: bold!important;
+    // }
+    // h3{
+    //     display: block!important;
+    //     font-size: 1.17em!important;
+    //     margin-top: 1em!important;
+    //     margin-bottom: 1em!important;
+    //     margin-left: 0!important;
+    //     margin-right: 0!important;
+    //     font-weight: bold!important;
+    // }
+    // h4{
+    //     display: block!important;
+    //     margin-top: 1.33em!important;
+    //     margin-bottom: 1.33em!important;
+    //     margin-left: 0!important;
+    //     margin-right: 0!important;
+    //     font-weight: bold!important;
+    // }
+    // h5{
+    //     display: block!important;
+    //     font-size: .83em!important;
+    //     margin-top: 1.67em!important;
+    //     margin-bottom: 1.67em!important;
+    //     margin-left: 0!important;
+    //     margin-right: 0!important;
+    //     font-weight: bold!important;
+    // }
+    // h6{
+    //     display: block!important;
+    //     font-size: .67em!important;
+    //     margin-top: 2.33em!important;
+    //     margin-bottom: 2.33em!important;
+    //     margin-left: 0!important;
+    //     margin-right: 0!important;
+    //     font-weight: bold!important;
+    // }
+    head{
+        display: none!important;
+    }
+    header{
+        display: block!important;
+    }
+    hr{
+        display: block!important;
+        margin-top: 0.5em!important;
+        margin-bottom: 0.5em!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        border-style: inset!important;
+        border-width: 1px!important;
+    }
+    html{
+        display: block!important;
+    }
+    html:focus{
+        outline: none!important;
+    }
+    i{
+        font-style: italic!important;
+    }
+    iframe:focus{
+        outline: none!important;
+    }
+    iframe[seamless]{
+        display: block!important;
+    }
+    img{
+        display: inline-block!important;
+    }
+    ins{
+        text-decoration: underline!important;
+    }
+    // kbd{
+    //     font-family: monospace!important;
+    // }
+    label{
+        cursor: default!important;
+    }
+    legend{
+        display: block!important;
+        padding-left: 2px!important;
+        padding-right: 2px!important;
+        border: none!important;
+    }
+    li{
+        display: list-item!important;
+    }
+    link{
+        display: none!important;
+    }
+    map{
+        display: inline!important;
+    }
+    mark{
+        background-color: yellow!important;
+        color: black!important;
+    }
+    menu{
+        display: block!important;
+        list-style-type: disc!important;
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 40px!important;
+    }
+    nav{
+        display: block!important;
+    }
+    object:focus{
+        outline: none!important;
+    }
+    ol{
+        display: block!important;
+        list-style-type: decimal!important;
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 40px!important;
+    }
+    output{
+        display: inline!important;
+    }
+    p{
+        display: block!important;
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    param{
+        display: none!important;
+    }
+    pre{
+        display: block!important;
+        font-family: monospace!important;
+        white-space: pre!important;
+        margin: 1em 0!important;
+    }
+    q{
+        display: inline!important;
+    }
+    q::before{
+        content: open-quote!important;
+    }
+    q::after{
+        content: close-quote!important;
+    }
+    rt{
+        line-height: normal!important;
+    }
+    s{
+        text-decoration: line-through!important;
+    }
+    samp{
+        font-family: monospace!important;
+    }
+    script{
+        display: none!important;
+    }
+    section{
+        display: block!important;
+    }
+    small{
+        font-size: smaller!important;
+    }
+    strike{
+        text-decoration: line-through!important;
+    }
+    strong{
+        font-weight: bold!important;
+    }
+    style{
+        display: none!important;
+    }
+    sub{
+        vertical-align: sub!important;
+        font-size: smaller!important;
+    }
+    summary{
+        display: block!important;
+    }
+    sup{
+        vertical-align: super!important;
+        font-size: smaller!important;
+    }
+    table{
+        display: table!important;
+        border-collapse: separate!important;
+        border-spacing: 2px!important;
+        border-color: gray!important;
+    }
+    tbody{
+        display: table-row-group!important;
+        vertical-align: middle!important;
+        border-color: inherit!important;
+    }
+    td{
+        display: table-cell!important;
+        vertical-align: inherit!important;
+    }
+    tfoot{
+        display: table-footer-group!important;
+        vertical-align: middle!important;
+        border-color: inherit!important;
+    }
+    th{
+        display: table-cell!important;
+        vertical-align: inherit!important;
+        font-weight: bold!important;
+        text-align: center!important;
+    }
+    thead{
+        display: table-header-group!important;
+        vertical-align: middle!important;
+        border-color: inherit!important;
+    }
+    title{
+        display: none!important;
+    }
+    tr{
+        display: table-row!important;
+        vertical-align: inherit!important;
+        border-color: inherit!important;
+    }
+    u{
+        text-decoration: underline!important;
+    }
+    ul{
+        display: block!important;
+        list-style-type: disc!important;
+        margin-top: 1em!important;
+        margin-bottom: 1 em!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 40px!important;
+    }
+    var{
+        font-style: italic!important;
+    }
+}
+
